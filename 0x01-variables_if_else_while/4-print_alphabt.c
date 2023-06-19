@@ -8,7 +8,7 @@
 int main(void)
 {
 char dat, q, e;
-for (dat = 'a'; dat<= 'z'; dat++)
+for (dat = 'a'; dat <= 'z'; dat++)
 {
 e = 'e';
 q = 'q';
