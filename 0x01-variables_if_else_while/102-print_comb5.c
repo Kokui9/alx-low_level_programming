@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-        int first, second;
-for (first = 0; first < 99; first++)
+int a, b;
+for (b= 0; a < 99; a++)
 {
-for (second = first + 1; second < 100; second++)
+for (b = a + 1; b < 100; b++)
 {
-putchar((first / 10) + '0');
-putchar((first % 10) + '0');
+putchar((a / 10) + '0');
+putchar((a % 10) + '0');
 putchar(' ');
-putchar((second / 10) + '0');
-putchar((second % 10) + '0');
-if (first == 98 && second == 99)
+putchar((b / 10) + '0');
+putchar((b % 10) + '0');
+if (a == 98 && b == 99)
 continue;
 putchar(',');
 putchar(' ');
