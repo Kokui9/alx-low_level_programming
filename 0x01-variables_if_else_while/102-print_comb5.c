@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-int x, y;
-for (x = 0; x < 98; x++)
+        int first, second;
+for (first = 0; first < 99; first++)
 {
-for (y = x + 1; y <= 99; y++)
+for (second = first + 1; second < 100; second++)
 {
-putchar((x / 10) + '0');
-putchar((x % 10) + '0');
+putchar((first / 10) + '0');
+putchar((first % 10) + '0');
 putchar(' ');
-putchar((y / 10) + '0');
-putchar((y % 10) + '0');
-if (x == 98 && y == 99)
+putchar((second / 10) + '0');
+putchar((second % 10) + '0');
+if (first == 98 && second == 99)
 continue;
 putchar(',');
 putchar(' ');
