@@ -14,6 +14,7 @@ for (y = x + 1; y <= '9'; y++)
 {
 if (y != x)
 {
+putchar(x);
 putchar(y);
 if (x == '8' && y == '9')
 continue;
